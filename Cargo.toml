@@ -1,0 +1,20 @@
+[package]
+authors = ["Leonz Chang <bellerophon00530@gmail.com>"]
+description = "A no_std Bloom filter implementation"
+edition = "2024"
+keywords = ["nostd", "bloom", "filter", "probabilistic", "datastructure"]
+license = "MIT"
+name = "bitbloom"
+readme = "README.md"
+version = "0.1.0"
+
+
+[dependencies]
+getrandom = { version = "0.3.3", default-features = false }
+libm = { version = "0.2.15" }
+rand_core = { version = "0.9.3" }
+siphasher = { version = "1.0.1", default-features = false }
+
+
+[dev-dependencies]
+rand_pcg = { version = "0.9.0" }
