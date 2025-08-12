@@ -1,11 +1,11 @@
 # Bitbloom
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/leonzchang/bitbloom/refs/heads/main/assets/bitbloom.png" alt="bitbloom">
+  <img src="https://raw.githubusercontent.com/leonzchang/bitbloom/refs/heads/main/assets/bitbloom.png" alt="bitbloom" width="50%">
 </p>
 
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/leonzchang/bitbloom/blob/main/LICENSE)
-[![crates.io](https://img.shields.io/crates/v/basu)](
+[![crates.io](https://img.shields.io/crates/v/bitbloom)](
 https://crates.io/crates/bitbloom)
 [![docs.rs](https://img.shields.io/badge/docs-docs.rs-green)](https://docs.rs/bitbloom/latest/bitbloom/)
 
