@@ -130,8 +130,8 @@ impl Bloom {
     where
         T: Hash,
     {
-        let mut hasher1 = self.hashers[0].clone();
-        let mut hasher2 = self.hashers[1].clone();
+        let mut hasher1 = self.hashers[0];
+        let mut hasher2 = self.hashers[1];
 
         item.hash(&mut hasher1);
         item.hash(&mut hasher2);
