@@ -10,7 +10,6 @@ version = "0.1.0"
 
 
 [dependencies]
-getrandom = { version = "0.3.3", default-features = false }
 libm = { version = "0.2.15" }
 rand_core = { version = "0.9.3" }
 siphasher = { version = "1.0.1", default-features = false }

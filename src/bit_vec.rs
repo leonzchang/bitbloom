@@ -7,6 +7,7 @@ pub(crate) struct BitVec {
     bits: Vec<u8>,
 }
 
+/// Number of bits contained in a single byte.
 const BITS_PER_BYTE: usize = 8;
 
 impl BitVec {
